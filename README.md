@@ -1,63 +1,85 @@
-# 🧵 VanguardTex
-### Gamified Industrial Simulation & Quality Intelligence Platform
-*Developed by a Textile Sciences Student at NED University*
+# 🧵 VanguardTex: Gamified Industrial Simulation & Quality Intelligence
 
-VanguardTex is a modern, enterprise-grade backend simulation framework that bridges industrial textile engineering with gamified enterprise economies. Built using Python 3.13, FastAPI, and SQLAlchemy, the system simulates real-time sensor streams from a textile factory floor and processes them through a deterministic Lab Logic Engine to grade manufacturing output.
-
----
-
-## 🚀 Project Overview & Key Features
-
-*   **Industrial Telemetry Simulation:** Simulates real-time telemetry datasets from actual machines: `Spinning-Frame-01`, `Weaving-Loom-X`, and `Dyeing-Jet-Alpha`.
-*   **The Lab Logic Engine (Phase 6):** Runs programmatic, deterministic checks on Yarn Count deviations, Mechanical Loom Efficiency, Pick Density (PPI), and fluid chemistry pH bounds.
-*   **Gamified Factory Economy:** Integrates execution costs and business rewards directly into database tracking. Simulates financial workflows where Grade A production earns higher global market export valuation.
-*   **Secure Access Management:** Equipped with an encrypted JWT Token Authorization workflow using native `bcrypt` routines, complete with direct Swagger UI login capability.
+<p align="center">
+  <img src="https://shields.io" alt="FastAPI">
+  <img src="https://shields.io" alt="Python">
+  <img src="https://shields.io" alt="SQLAlchemy">
+  <img src="https://shields.io" alt="SQLite">
+</p>
 
 ---
 
-## ⚙️ Core Technical Stack & Modules Used
+## 🌟 Introduction
+**VanguardTex** ek dynamic, enterprise-level backend framework hai jo **Textile Sciences (1st Semester, NED University)** ke engineering principles ko **Gamified Industry 4.0 Economy** ke sath jorta hai. 
 
-*   **`fastapi` & `uvicorn`** - High-performance web framework and ASGI server suite driving the API execution.
-*   **`sqlalchemy` & `sqlite3`** - Object-Relational Mapper (ORM) powering programmatic queries against `vanguardtex.db`.
-*   **`pydantic` & `email-validator`** - Data parsing validation wrappers enforcing runtime schema restrictions.
-*   **`bcrypt` & `pyjwt`** - Cryptographic layer encoding user credentials and issuing cryptographically signed bearer tokens.
-*   **`random`** - Native library utilized to model physical hardware metric variances.
+Yeh system textile factory floor se real-time sensor streams ko simulate karta hai aur unhein ek deterministic **Lab Logic Engine** ke zariye process karke automatic fabric grading aur financial rewards calculate karta hai.
 
 ---
 
-## 🗺️ Project Lifecycle & Roadmap
+## 🚀 Core Features & Architectural Overview
 
-- [x] **Phase 1: Professional Development Workspace Setup** - Environment setup and core installations.
-- [x] **Phase 2: Database Structural Design (Models)** - Relational data models definition for Users and Factory Machines.
-- [x] **Phase 3: Industrial Access Management** - Secure JWT Auth Engine integration.
-- [x] **Phase 4: Textile Production Telemetry** - Dynamic real-time manufacturing telemetry simulations.
-- [x] **Phase 5: Factory Gamification Economy** - Active accounting ledger processing (`-Rs. 1,000` per process run) and dynamic leveling curves.
-- [x] **Phase 6: Predictive Quality Analyzer (The Lab Logic)** - Standalone grading interface (`/simulation/analyze-quality`) for dynamic Export Ready vs. Local Market routing.
-- [ ] **Phase 7: AI/ML Quality Intelligence (Future Capstone Goal)** - Replacing conditional handlers with predictive Machine Learning classifiers.
+*   ⚡ **High-Speed Industrial Telemetry (Phase 4):** Real-time sensor metrics simulate karta hai for `Spinning-Frame-01` (Yarn Count/Ne), `Weaving-Loom-X` (PPI Density), aur `Dyeing-Jet-Alpha` (pH levels & Temp).
+*   🕹️ **Factory Gamification Economy (Phase 5):** Telemetry execution par Rs. 1000 running cost minus hoti hai aur dynamic RPG leveling curve ke mutabik automated **Level Ups** process hote hain.
+*   🧪 **The Lab Logic Engine (Phase 6):** Ek standalone predictive intelligence routing endpoint (`/simulation/analyze-quality`) jo live data deviations ko check karke output ko automatically **Grade A (Export Ready)** ya **Grade B (Local Market)** announce karta hai.
+*   🔒 **Secure Authorization Gateway (Phase 3):** Encrypted JWT bearer tokens support native `bcrypt` algorithms ke sath, jo direct Swagger UI Login allow karta hai.
 
 ---
 
-## 💻 How to Run Locally
+## 🗺️ Project Lifecycle & Status Roadmap
 
-1. Clone this repository to your local directory:
-   ```bash
-   git clone https://github.com
-   cd VanguardTex
-   ```
+| Phase | Milestone Description | Modules Used | Status |
+| :--- | :--- | :--- | :--- |
+| **🟢 Phase 1** | Professional Workspace & Virtual Env Setup | `fastapi`, `uvicorn` | **COMPLETE ✅** |
+| **🟢 Phase 2** | Database Relational Models Mapping | `sqlalchemy`, `sqlite3` | **COMPLETE ✅** |
+| **🟢 Phase 3** | Industrial Access Management (Auth Engine) | `bcrypt`, `pyjwt` | **COMPLETE ✅** |
+| **🟢 Phase 4** | Textile Production Telemetry Simulation | `random` runtime wrappers | **COMPLETE ✅** |
+| **🟢 Phase 5** | Gamified XP Mechanics & Operating Cost Ledger | Relational updates engine | **COMPLETE ✅** |
+| **🟢 Phase 6** | Predictive Quality Analyzer (The Lab Logic) | `pydantic`, `email-validator` | **COMPLETE ✅** |
+| **🔴 Phase 7** | AI/ML Quality Intelligence Integration | Neural Networks / Classifiers | *Next Semester Goal 🔮* |
 
-2. Activate your Virtual Environment:
-   ```powershell
-   # Windows PowerShell Execution
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-   venv\Scripts\Activate.ps1
-   ```
+---
 
-3. Initialize the FastAPI Uvicorn Development Server:
-   ```powershell
-   python -m uvicorn app.main:app --reload
-   ```
+## 📦 Technical Module Breakdown
 
-4. Open your local browser to access the dynamic interactive documentation dashboard:
-   ```text
-   http://127.0.0
-   ```
+*   **`fastapi` & `uvicorn`** — Web interface routes mapping aur production-ready async ASGI application serving layer.
+*   **`sqlalchemy`** — Object-Relational Mapper (ORM) jo bina direct SQL queries ke relational pipelines link karta hai.
+*   **`pydantic`** — Incoming request schemas aur raw textile bounds ki parameter structural validation ke liye.
+*   **`bcrypt` & `pyjwt`** — Zero-knowledge user password hashing aur cryptographically signed security token generation.
+*   **`random`** — Hardware tolerance fluctuations aur dynamic physics variations simulate karne ke liye.
+
+---
+
+## 💻 Installation & Quickstart
+
+### 1. Repository Setup
+```powershell
+git clone https://github.com
+cd VanguardTex
+```
+
+### 2. Environment Activation (Windows PowerShell)
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+venv\Scripts\Activate.ps1
+```
+
+### 3. Run Development Server
+```powershell
+python -m uvicorn app.main:app --reload
+```
+
+### 4. Interactive API Documentation Gateway
+Server up hote hi aap is local dashboard par ja kar authenticated requests simulate kar sakte hain:
+👉 **[http://127.0.0](http://127.0.0)**
+
+---
+
+## 👩‍💻 Developer Profiles & Academic Authorization
+*   **Lead Engineer:** Student of Textile Sciences (1st Semester)
+*   **Project Status:** Production Stable & Verified Codebase
+
+---
+<p align="center">
+  Made with 🧵 and 💻 — Securely locked on GitHub.
+</p>
+
