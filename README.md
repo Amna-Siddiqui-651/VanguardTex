@@ -75,7 +75,7 @@ Server up hote hi aap is local dashboard par ja kar authenticated requests simul
 ---
 
 ## 👩‍💻 Developer Profiles & Academic Authorization
-*   **Lead:**  Amna, Student of Textile Sciences (1st Semester)
+*   **Lead:**  Amna Khurram, Student of Textile Sciences (1st Semester)
 *   **Project Status:** Production Stable & Verified Codebase
 
 ---
