@@ -1,4 +1,4 @@
-# 🧵 VanguardTex: Gamified Industrial Simulation & Quality Intelligence
+# VanguardTex: Gamified Industrial Simulation & Quality Intelligence
 
 <p align="center">
   <img src="https://shields.io" alt="FastAPI">
@@ -75,7 +75,7 @@ Server up hote hi aap is local dashboard par ja kar authenticated requests simul
 ---
 
 ## 👩‍💻 Developer Profiles & Academic Authorization
-*   **Lead Engineer:** Student of Textile Sciences (1st Semester)
+*   **Lead:** Student of Textile Sciences (1st Semester)
 *   **Project Status:** Production Stable & Verified Codebase
 
 ---
