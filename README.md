@@ -1,85 +1,59 @@
-# 🧵 VanguardTex: Gamified Industrial Simulation & Quality Intelligence
+# 🧵 VanguardTex
 
-<p align="left">
-  <img src="https://shields.io" alt="FastAPI">
-  <img src="https://shields.io" alt="Python">
-  <img src="https://shields.io" alt="SQLAlchemy">
-  <img src="https://shields.io" alt="SQLite">
-</p>
+An enterprise-grade industrial simulation platform and gamified engine built using Python 3.13, FastAPI, and SQLAlchemy. This project bridges the foundational principles of **Textile Sciences (1st Semester, NED University)** with high-performance Industry 4.0 backend workflows.
+
+The system extracts real-time mechanical telemetry from factory floors, processes data streams through a deterministic Lab Logic Engine, and securely tracks financial transactions inside an active user accounting database.
 
 ---
 
-## 🌟 Introduction
-**VanguardTex** ek dynamic, enterprise-level backend framework aur gamified industrial simulation engine hai. Yeh project **Textile Sciences (1st Semester, NED University)** ke engineering principles ko **Industry 4.0 Systems** ke sath jorta hai.
+## 🔥 Key Technical Elements
 
-System mechanical floor se live telemetry sensor streams ko extract karta hai aur unhein ek standalone deterministic **Lab Logic Engine** ke zariye run karke automated quality diagnostics aur real-time user accounting transactions execute karta hai.
-
----
-
-## 🚀 Key Features & Capabilities
-
-*   ⚡ **High-Speed Industrial Telemetry (Phase 4):** Real-time physical floor data variables simulate karta hai for `Spinning-Frame-01` (Yarn Count/Ne), `Weaving-Loom-X` (Picks Per Inch Density), aur `Dyeing-Jet-Alpha` (Wet fluid pH testing & temperature limits).
-*   🕹️ **Gamified Factory Economy (Phase 5):** Har production pipeline trigger par Rs. 1,000 factory operational maintenance cost ledger se minus hoti hai aur dynamic RPG curves ke mutabik active leveling status structures coordinate hote hain.
-*   🧪 **The Lab Logic Engine (Phase 6):** Standalone data verification endpoint (`/simulation/analyze-quality`) jo tolerance checks perform karke output batch ko automatically **Grade A (Export Ready - High Revenue)** ya **Grade B (Local Market / Rejected - Low Value)** distribute karta hai.
-*   🔒 **Secure Access Gateway (Phase 3):** Encrypted JWT bearer tokens using native `bcrypt` cryptographic wrappers, supporting automated Swagger UI Form-Login sequences.
+*   **Industrial Telemetry Execution:** Simulates variable physics data sensors for `Spinning-Frame-01` (Yarn Count/Ne), `Weaving-Loom-X` (Picks Per Inch Density), and `Dyeing-Jet-Alpha` (Chemistry pH fluids testing & temperature metrics).
+*   **The Lab Logic Engine (Phase 6):** Runs isolated data verification sequences via the `/simulation/analyze-quality` endpoint to automatically grade output batches into **Grade A (Export Ready)** or **Grade B (Local Market)** based on strict tolerance bounds.
+*   **Factory Gamification Economy:** Processes real-time ledger updates where each production run triggers a `-Rs. 1,000` operational cost while generating points to compute immediate level ups.
+*   **Cryptographic Access Gateway:** Implements a token-based secure authorization network backed by native `bcrypt` password encryption routines and direct Swagger UI Form-Login support.
 
 ---
 
-## 🗺️ Project Lifecycle & Status Roadmap
+## 🗺️ Project Architecture & Status
 
-| Phase | Milestone Description | Primary Modules Used | Status |
-| :--- | :--- | :--- | :--- |
-| **🟢 Phase 1** | Professional Workspace & Virtual Env Configuration | `fastapi`, `uvicorn` | **COMPLETE ✅** |
-| **🟢 Phase 2** | Database Structural ORM Models Design | `sqlalchemy`, `sqlite3` | **COMPLETE ✅** |
-| **🟢 Phase 3** | Access Management & Security Engine | `bcrypt`, `pyjwt` | **COMPLETE ✅** |
-| **🟢 Phase 4** | Industrial Production Streams Simulation | `random` physics bounds | **COMPLETE ✅** |
-| **🟢 Phase 5** | Operating Cost Ledger & Leveling Mechanics | Relational updates ledger | **COMPLETE ✅** |
-| **🟢 Phase 6** | Predictive Quality Analyzer (The Lab Logic Engine) | `pydantic`, `email-validator` | **COMPLETE ✅** |
-| **🔴 Phase 7** | AI/ML Quality Intelligence Integration | Neural Networks / Classifiers | *Next Semester Goal 🔮* |
+*   **Phase 1:** Professional Workspace, Virtual Env, & Core Packages Installation ➔ **[COMPLETE ✅]**
+*   **Phase 2:** Database Structural Mapping & Relational ORM Models Definition ➔ **[COMPLETE ✅]**
+*   **Phase 3:** Industrial Access Management & JWT Security Protocols Integration ➔ **[COMPLETE ✅]**
+*   **Phase 4:** Textile Production Telemetry Automation & Crash Fallback Logic ➔ **[COMPLETE ✅]**
+*   **Phase 5:** Operating Cost Accounting Ledger & Level Shifting Curves ➔ **[COMPLETE ✅]**
+*   **Phase 6:** Predictive Quality Analyzer & Parameter Diagnostics Framework ➔ **[COMPLETE ✅]**
+*   **Phase 7:** AI/ML Quality Intelligence Integration via Neural Networks ➔ *[Next Semester Target 🔮]*
 
 ---
 
-## 📦 Technical Stack & Module Blueprint
+## ⚙️ Core Technology Stack
 
-*   **`fastapi` & `uvicorn`** — Core web layer implementation aur high-performance async application serving framework.
-*   **`sqlalchemy`** — Python Object-Relational Mapper (ORM) tracking data records without raw SQL injection scripts.
-*   **`pydantic`** — Structured request schemas parsing validation aur sensor parameters threshold verification data wrappers.
-*   **`bcrypt` & `pyjwt`** — Zero-knowledge credential hashing protections aur secure state validation token management.
-*   **`random`** — Hardware tolerance fluctuations aur telemetry physics simulation bounds generation.
+*   `fastapi` & `uvicorn` — Driving high-speed RESTful application architectures and server execution.
+*   `sqlalchemy` — Object-Relational Mapper handling state updates without programmatic SQL scripts.
+*   `pydantic` & `email-validator` — Executing raw data validation, field filtering, and input syntax parsing.
+*   `bcrypt` & `pyjwt` — Encoding sensitive records and generating secure verification token keys.
+*   `random` — Managing data variations and generating synthetic physical sensor metrics.
 
 ---
 
-## 💻 Installation & Local Quickstart
+## 💻 Local Workspace Installation
 
-### 1. Repository Access
 ```powershell
+# 1. Access codebase directory
 git clone https://github.com
 cd VanguardTex
-```
 
-### 2. Environment Activation (Windows PowerShell)
-```powershell
+# 2. Trigger environment runtime wrapper (Windows PowerShell)
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 venv\Scripts\Activate.ps1
-```
 
-### 3. Initialize Server
-```powershell
+# 3. Fire up the backend engine
 python -m uvicorn app.main:app --reload
 ```
 
-### 4. Interactive REST Documentation Gateway
-Open your local browser to access the dynamic telemetry injection panel:
+Interactive REST Testing API documentation endpoint will become live at:  
 👉 **[http://127.0.0](http://127.0.0)**
 
 ---
-
-## 🏛️ Academic Attributions & Authorization
-*   **Lead Developer:** Student of Textile Sciences (1st Semester)
-*   **Academic Institution:** NED University of Engineering and Technology, Karachi
-*   **Project Target:** Hackathon, Startup Enterprise Model, & Capstone Thesis Base
-
----
-<p align="center">
-  Developed with 🧵 and 💻 — Programmatically locked on the GitHub Cloud Network.
-</p>
+Developed by **Amna Khurram** | Student of Textile Sciences, NED University of Engineering and Technology, Karachi 🏛️
