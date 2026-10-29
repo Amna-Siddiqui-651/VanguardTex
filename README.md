@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://unsplash.com" width="100%" alt="VanguardTex Banner" />
+  <img src="banner.png" width="100%" alt="VanguardTex Banner" />
 </p>
 
 # VanguardTex
