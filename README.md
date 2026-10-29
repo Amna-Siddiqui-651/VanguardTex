@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="https://unsplash.com" width="100%" alt="VanguardTex Banner" />
+</p>
+
 # VanguardTex
 
 An enterprise-grade industrial simulation platform and gamified engine built using Python 3.13, FastAPI, and SQLAlchemy. This project bridges the foundational principles of **Textile Sciences (1st Semester, NED University)** with high-performance Industry 4.0 backend workflows.
